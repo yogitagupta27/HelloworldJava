@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller{
     @GetMapping("/rest/auth")
     public String greeting(){
-        return "WELCOME TO Yogita's LOGIN PAGE";
+        return "WELCOME";
     }
 }
